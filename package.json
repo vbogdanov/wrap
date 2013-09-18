@@ -1,0 +1,11 @@
+{
+  "name": "decorator",
+  "version": "0.0.0",
+  "description": "An utility allowing a module to decorate another module. Multiple decorations of the same target with the same decoration share common state.",
+  "main": "src/decorator.js",
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "author": "Valeri Bogdanov",
+  "license": "MIT"
+}
