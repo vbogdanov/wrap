@@ -1,8 +1,16 @@
 {
-  "name": "decorator",
-  "version": "0.0.0",
-  "description": "An utility allowing a module to decorate another module. Multiple decorations of the same target with the same decoration share common state.",
-  "main": "src/decorator.js",
+  "name": "objectwrap",
+  "version": "0.0.1",
+  "description": "An utility allowing a module to define wrappers/decorators. Multiple wraps of the same Decoration around the same target result in the same object",
+  "main": "src/wrap.js",
+  "dependencies": {
+    "yacollections":"0.0.1"
+  },
+  "jam":{
+    "dependencies": {
+      "yacollections":"0.0.1"
+    }
+  },
   "scripts": {
     "test": "jasmine-node test/"
   },
